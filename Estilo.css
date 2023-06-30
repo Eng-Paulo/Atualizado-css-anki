@@ -1,0 +1,295 @@
+/**********************************************************************************************************/
+/**************************************** Settings for mobile devices********************************************/
+/**********************************************************************************************************/
+.mobile .card {
+    margin: 0 1% 0 1%;
+    line-height: 145%;
+    margin-top: 17px; 
+    font-size: 19px;
+    margin-left: 4px;
+    text-align: justify-content;
+    color: #fdcddc;
+    background-color: black;
+   
+   /* Night Mode */
+   
+   .card .nightMode { color: red; }
+   }
+   .mobile .style-tag {
+    font-weight: bold;
+    font-family: garamond;
+    font-size: 19px;
+    color: #FFd;
+   
+   
+   
+   
+   
+   
+   
+   /**********************************************************************************************************/
+   /**************************************** Settings for desktop devices*******************************************/
+   /**********************************************************************************************************/
+   }
+   .card {
+   margin: 0 17% 0 17%;
+   margin-top: 22px;
+   myfont
+   }
+   
+   .cabeçalho {
+   margin-top:27px;
+   border-radius: 6px;
+   text-align: center;
+   box-sizing: 1px
+   border-box;
+   margin: 0 auto;
+   line-height:1.5;
+   width: 100%; /* Valor da Largura */
+   font-family: Mithella Regular;
+   font-weight: normal;
+   font-size: 15.5px;
+   color: white;
+   padding: 12px;
+   box-shadow: 0px 0px 0px black;
+   background: linear-gradient(45deg, black 100%, black 100%);
+   box-sizing: border-box;10px
+   border-top-right-radius: 10px;
+   border-top-left-radius:10px;
+   border-top: 18px solid yellow;
+   
+   
+   
+   }
+   .pergunta {
+   position: relative;
+   line-height:1.7;
+   text-align: justify;
+   font-family: Mithella Regular;
+   font-size: 22px;
+   color: yellow;
+   height:  auto;
+   padding: 20px 30px 20px 30px;
+   box-shadow: 0px px px black;
+   background-color: black;
+   box-sizing: border-box;10px
+   overflow-y: auto;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+   }
+   
+   
+   .resposta {
+   position: relative;
+   line-height:1.5;
+   text-align: justify;
+   font-family:Mithella Regular;
+   font-size: 22px;
+   color: yellow;
+   height: auto;
+   padding: 10px 30px 20px 30px;
+   box-shadow: 0px px px #ABB2B9;
+   background-color: black;
+   box-sizing: border-box;10px
+   overflow-y: auto;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+   
+   }
+   .tags {
+   text-align: center;
+   box-sizing: 1px
+   border-box;
+   margin: 0 auto;
+   line-height:1.5;
+   width: 100%; /* Valor da Largura */
+   font-family:Mithella Regular;
+   font-weight: NORMAL;
+   font-size: 15.5px;
+   color: white;
+   padding: 5px;
+   box-shadow: px px 0px #ABB2B9;
+   background: linear-gradient(90deg, #43CBFF 100%, #0396FF 100%);
+   box-sizing: border-box;10px
+   border-top-right-radius: 10px;
+   border-top-left-radius:10px;
+   }
+   
+   
+   ::-webkit-scrollbar {
+   width: 6px;
+   background: transparent;
+   border-radius: 10px;
+   
+   }
+   ::-webkit-scrollbar-thumb {
+   background: #dad7d7;
+   
+   }
+   
+   .centro {
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+   
+   
+   }
+   
+   .decksubdeck {
+   position: absolute;
+   top: 20px; 
+   right: 50px;
+   left: 50px;
+   margin-bottom: 1px;
+   top: 20px;
+   color: #555;
+   font-size: 16px;
+   font-family: Input, monospace;
+   opacity: 0.8;
+   
+   }
+   
+   b {
+    color: lime;
+   
+   
+   }
+   
+   
+   .transition {
+    transition: all 2s;
+   
+   
+   }
+   
+   @font-face { font-family: myfont; src: url('_Mithella-Regular.otf'); 
+   
+   }
+   
+   
+   /*♠️█▓▒░APARENCIA DAS LISTAS SEM NUMERO░▒▓█♠️*/
+   ul {
+     /*border: 5px dashed purple;*/
+     list-style-type: none;
+     text-align: justify;
+     margin: 0px 0px 0px 0px;
+     padding: 0px 10px 0px 10px; 
+             /*distancia vertical da lista pro titulo nivel1
+             - distancia da margem - todos*/
+   }
+   
+   li~ul{ border-left: 5px solid MediumSlateBlue;
+     padding: 0px 0px 15px 20px; 
+     margin: 0px 0px 0px 0px;
+     
+   }
+   
+   ul li{
+     margin: 0px 0px  0px 0px;
+     text-align: justify;
+     padding: 0px 0px 0px 15px;
+     border-left:5px solid MediumSlateBlue;
+     background-image: url('traço-mediumslateblue.png');
+     background-size: 0.7em 0.2em;
+     background-blend-mode:multiply;
+     background-repeat:no-repeat;
+     background-position:0px 10px;
+     background-origin:border-box;
+   
+   }
+   
+   li:last-of-type~ul{border: none}
+   ul li:last-of-type{border: none; padding-left: 20px;
+     background-image:url('l-mediumslateblue.png');
+     background-size: 0.8em 0.8em;
+     background-repeat:no-repeat;
+     background-position:0px 0px;
+     background-origin:border-box;}
+   
+   
+   /*estilos de cotoco*/
+   
+   ul>li~ul>li,
+   ul>li~ul>li~ul>li~ul>li~ul>li,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li
+   {
+    border-left:4px solid tomato;
+    background-image: url('traço-tomato.png')}
+   
+   ul>li~ul>li~ul>li, 
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li
+   {
+    border-left: 4px solid turquoise;
+    background-image: url('traço-turquoise.png')}
+   
+   ul-li, ul>li~ul>li~ul>li~ul>li,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li
+   {
+    border-left:4px solid MediumSlateBlue;
+    background-image: url('traço-MediumSlateBlue.png')}
+   
+   /*estilos de conexao*/
+   
+   li~ul>li~ul,
+   li~ul>li~ul>li~ul>li~ul>li~ul,
+   li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul,
+   li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul
+   {border-left: 4px solid tomato;}
+   
+   li~ul>li~ul>li~ul, 
+   li~ul>li~ul>li~ul>li~ul>li~ul>li~ul,
+   li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul,
+   li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul
+   {border-left: 4px solid turquoise;}
+   
+   li-ul, li~ul>li~ul>li~ul>li~ul,
+   li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul,
+   li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul,
+   li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul
+   
+   {border-left: 4px solid MediumSlateBlue;}
+   
+   /*estilos de cotoco final*/
+   
+   ul>li~ul>li:last-of-type,
+   ul>li~ul>li~ul>li~ul>li~ul>li:last-of-type,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li:last-of-type,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li:last-of-type
+   
+   {
+     background-image: url('l-tomato.png')
+   }
+   
+   ul>li~ul>li~ul>li:last-of-type, 
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li:last-of-type,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li:last-of-type,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li:last-of-type
+   {
+     background-image: url('l-turquoise.png')
+   
+   }
+   
+   ul-li, ul>li~ul>li~ul>li~ul>li:last-of-type,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li:last-of-type,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li:last-of-type,
+   ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li~ul>li:last-of-type
+   {
+     background-image: url('l-MediumSlateBlue.png')
+   }
+   
+   /*creditos @orlandopariente*/
+   
+   /*creditos do template: comunidade Anki Flaschcards
+
+   
+   
+   
+   
