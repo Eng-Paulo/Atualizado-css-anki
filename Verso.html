@@ -1,0 +1,19 @@
+{{FrontSide}}
+
+<div <span class="resposta">{{edit:Verso}}</span>
+<script>
+fields = document.querySelectorAll('.resposta');
+for(var i=0; i<fields.length; i++) {
+fields[i].innerHTML = fields[i].innerHTML
+.replace('Certo', '<span style="color: #FFD">Certo!</span>')
+.replace('certo', '<span style="color: #FFD">Certo!</span>')
+.replace('Errado', '<span style="color: #FFD">Errado!</span>')
+.replace('errado', '<span style="color: #FFD">Errado!</span>')
+}
+</script>
+</div>
+
+{{#Justificativa}}<div class=justificativa>{{edit:Justificativa}}
+
+</div>{{/Justificativa}}
+
